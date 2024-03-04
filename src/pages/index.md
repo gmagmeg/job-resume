@@ -24,9 +24,16 @@ layout: ../layouts/Layout.astro
 
 ### 個人データ
 
-**氏名**：土田直人  
+<h4 class="top-h4">氏名　土田直人</h4>
 
-**職歴**：
+<h4 class="top-h4">外部アカウント</h4>
+<ul class="none">
+<li><a href="https://github.com/gmagmeg"><i class="fa-brands fa-github"></i>GitHub</a></li>
+<li style="margin-top: 0.25em"><a href="https://zenn.dev/ma_me"><img src="https://simpleicons.org/icons/zenn.svg" width=15 style="margin-right: 0.5em" />Zenn</a></li>
+</ul>
+
+
+<h4 class="top-h4">職歴</h4>
 <ul class="none">
   <li><span class="history-date">現在</span>Sky株式会社 在籍中</li>
   <li><span class="history-date">2019年7月</span>Sky株式会社 入社</li>
