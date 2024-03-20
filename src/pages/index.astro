@@ -1,0 +1,211 @@
+---
+const MAIN_COMPANY_NAME = import.meta.env.PUBLIC_MAIN_COMPANY_NAME;
+const SECOND_COMPANY_NAME = import.meta.env.PUBLIC_SECOND_COMPANY_NAME;
+const THIRD_COMPANY_NAME = import.meta.env.PUBLIC_THIRD_COMPANY_NAME;
+const FOURTH_COMPANY_NAME = import.meta.env.PUBLIC_FOURTH_COMPANY_NAME;
+const USER_NAME = import.meta.env.PUBLIC_USER_NAME;
+
+---
+
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="Astro description"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><script src="https://kit.fontawesome.com/ef916ac3a8.js" crossorigin="anonymous"></script><meta name="generator" content="Astro v4.4.8"><title>職務経歴書</title><style><style is:global> :root{--accent: 136, 58, 234;--accent-light: 224, 204, 250;--accent-dark: 49, 10, 101;--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), rgb(var(--accent-light)) 30%, white 60%)}html{font-family:system-ui,sans-serif;background:#f5f5f7;background-size:224px}code{font-family:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace}body{display:grid;place-items:center;height:100vh}header{background-color:#fff;height:48px}.toc{width:60%;ul li{margin-bottom:.2em;width:22em}}span.history-date{font-size:1em;display:inline-block;width:6em}span.skill-title{font-size:1em;font-weight:700;display:inline-block;width:12em}h2{margin-top:2em}.top-h2{margin-top:0}h3,h4{margin-bottom:.5rem;width:60%}h4{margin-top:1.5em;margin-bottom:0;padding-bottom:.25rem}.top-h4{margin-top:0}h4:before{content:"■";margin-right:.25rem;color:#000}p{margin-top:0;margin-bottom:.25em;width:60%}ul{padding-top:0;margin-top:0;border-radius:5px;margin-bottom:16px;padding-left:32px;width:60%}ul.none{list-style:none;margin-left:0;padding-left:0}a{color:#2f5ea9;cursor:pointer}i{margin-right:.5rem}hr{margin:2rem 0;width:75%}.history{width:60%;text-align:left;table{margin-left:-.2em;td.date{width:8em}}}.back-to-top{position:fixed;bottom:20px;right:10vw;width:50px;height:50px;background-color:#93a3ad;color:#fff;text-align:center;line-height:50px;border-radius:50%;cursor:pointer;font-family:Arial,sans-serif;font-size:24px;text-decoration:none}
+</style></head> <body> <h1 id="職務経歴書"><i class="fa-regular fa-file-lines"></i>職務経歴書</h1>
+<div class="toc">
+<h2 class="top-h2">目次</h2>
+<ul>
+<li><a href="#%E7%B5%8C%E9%A8%93%E9%A0%98%E5%9F%9F">経験領域</a></li>
+<li><a href="#sky">{MAIN_COMPANY_NAME}での主な職務内容</a>
+<ul>
+<li><a href="#kinmuhyou">勤務管理システム</a></li>
+<li><a href="#timecard">出退勤打刻管理システム</a></li>
+<li><a href="#kyuyo">給与管理システム</a></li>
+</ul>
+</li>
+<li><a href="#GMO">{SECOND_COMPANY_NAME}での主な職務内容</a>
+<ul>
+<li><a href="#payment">外部連携決済の追加</a></li>
+</ul>
+</li>
+<li><a href="#visan">{THIRD_COMPANY_NAME}での主な職務内容</a>
+<ul>
+<li><a href="#pos">ブラウザベースのペット美容室用POSレジ　保守開発</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h3 id="個人データ">個人データ</h3>
+<h4 class="top-h4">氏名　{USER_NAME}</h4>
+<h4 class="top-h4">外部アカウント</h4>
+<ul class="none">
+<li><a href="https://github.com/gmagmeg"><i class="fa-brands fa-github"></i>GitHub</a></li>
+<li style="margin-top: 0.25em"><a href="https://zenn.dev/ma_me"><img src="https://simpleicons.org/icons/zenn.svg" width="15" style="margin-right: 0.5em">Zenn</a></li>
+</ul>
+<h4 class="top-h4">職歴</h4>
+<ul class="none">
+  <li><span class="history-date">現在</span>{MAIN_COMPANY_NAME} 在籍中</li>
+  <li><span class="history-date">2019年7月</span>{MAIN_COMPANY_NAME} 入社</li>
+  <li><span class="history-date">2015年10月</span>{SECOND_COMPANY_NAME} 入社</li>
+  <li><span class="history-date">2015年7月</span>{THIRD_COMPANY_NAME} 退職</li>
+  <li><span class="history-date">2012年6月</span>{THIRD_COMPANY_NAME} 入社</li>
+  <li><span class="history-date">2012年5月</span>{FOURTH_COMPANY_NAME} 退職</li>
+  <li><span class="history-date">2007年4月</span>{FOURTH_COMPANY_NAME} 入社</li>
+</ul>
+<h2 id="経験領域"><i class="fa-solid fa-code"></i>経験領域</h2>
+<ul>
+<li><span class="skill-title">開発・設計手法</span>アジャイル・スクラム開発、DDD、ウォーターフォール</li>
+<li><span class="skill-title">設計手法</span>DDD</li>
+<li><span class="skill-title">言語</span>PHP、JavaScript、TypeScript、Elm</li>
+<li><span class="skill-title">フレームワーク、ライブラリ等</span>Laravel、Vue.js、React、Next.js、Astor</li>
+<li><span class="skill-title">テストフレームワーク</span>PHPUnit、Jest</li>
+<li><span class="skill-title">DB</span>MySQL</li>
+<li><span class="skill-title">CI/CDツール</span>Jenkins、Gitlab CI</li>
+</ul>
+<hr>
+<h2 class="section-title"><i class="fa-regular fa-file-lines"></i>職務経歴詳細</h2>
+<h2 id="sky"><i class="fa-solid fa-building"></i>{MAIN_COMPANY_NAME}（2019年７月～現在に至る）</h2>
+<h2 id="kinmuhyou" class="title top-h2">勤務管理システム</h2>
+<p>社員の月単位での勤務時間と、勤務内容をWebアプリ化するプロジェクト。<br>
+既存のシステムを踏襲しつつ新規機能を拡充し、Excelで管理されている業務のシステム化を進めました。</p>
+<h3 id="開発体制"><i class="fa-solid fa-users"></i>開発体制</h3>
+<p>9人（内訳：社員４名、パートナー２名、インターン生３名）<br>
+短期間でのリリースを目的として、スクラムの要素を取り込んだ開発体制</p>
+<h3 id="主な使用技術"><i class="fa-solid fa-code"></i>主な使用技術</h3>
+<ul>
+<li>バックエンドにLaravel（ver10）、フロントエンドにVue.js（ver2）を利用したSPA</li>
+<li>Dockerコンテナを用いたローカル開発環境の構築と利用</li>
+<li>GitLab CIを用いて、各種ドキュメント生成の自動化（WebAPIやコード、ER図など）</li>
+<li>PHPUnit, Playwrightを用いたユニットテストとe2eテストの導入、及び自動化</li>
+<li>Kibanaを用いてアクセスログからユーザー動向の把握</li>
+</ul>
+<h3 id="プロジェクト内での役割"><i class="fa-regular fa-flag"></i>プロジェクト内での役割</h3>
+<ul>
+<li>技術的に難しい部分の設計と実装</li>
+<li>開発環境の整備と改善</li>
+<li>チームメンバーへの技術サポート</li>
+<li>コードレビュー</li>
+<li>ユニットテストのベース作成と自動化</li>
+<li>ドキュメントのベース作成と自動生成</li>
+<li>インフラ面の整備</li>
+<li>利用者測定のためのデータ基盤整理</li>
+</ul>
+<h3 id="主な取り組み"><i class="fa-solid fa-person-running"></i>主な取り組み</h3>
+<h4 class="top-h4">設計フェーズでDDDを導入</h4>
+<p>既存の業務フローがしっかり固まっており、業務ルールが複雑であること、
+保守フェーズが続くことが明らかであったため、設計フェーズでDDDを用いることを決定しました。<br>
+DDDを落とし込む際には、守らないといけない業務ルールをコードに落とし込むために、
+用語の認識を合わせたいことを重点に話し、メンバーの納得を得たうえで導入しました。<br>
+また継続するにあたり、用語やドメインモデル図をFigJamで管理し、メンバーが議論しながらメンテナンスしやすい土壌を整えました。</p>
+<h4 id="開発環境のdockerコンテナ化">開発環境のDockerコンテナ化</h4>
+<p>既存の環境はVagrant+VirtualBoxで作られていましたが、起動が安定せず動作も重い、拡張しづらいなど様々な問題が多発し、開発者増員の妨げになっていました。<br>
+そこでコンテナ環境へ移行することで既存の問題を解決し、開発者の増員に繋げました。<br>
+またバックエンド、フロントエンド、Webサーバーでそれぞれコンテナを分離して管理する構成にしたため、
+それぞれ開発用に拡張することが容易になり、開発効率を向上させました。</p>
+<h4 id="デグレが多い機能へのplaywrightによるe2eテストの導入">デグレが多い機能へのPlaywrightによるe2eテストの導入</h4>
+<p>勤務表のExcelファイルアップロード機能について、複数の社内独自フォーマットが存在しており、とてもデグレに繋がりやすい機能となっていました。<br>
+そこでフォーマットを網羅したe2eテストを導入し、誰が行っても同一の試験結果と期待が得られるようにし、デグレを減らすことに成功しました。<br>
+またCIツールに組み込むことにより、万が一漏れがあった場合でもリリース直前には気づける仕組みづくりを行いました。</p>
+<h2 id="timecard" class="title">出退勤打刻管理システム</h2>
+<h3 id="開発体制-1"><i class="fa-solid fa-users"></i>開発体制</h3>
+<p>開発体制
+４人（内訳：社員４名）</p>
+<p>出勤時間と退勤時間の管理をWebアプリ化するプロジェクト。<br>
+フロントエンドのコードベース作成と、パフォーマンスチューニングをメインに参画しました。</p>
+<h3 id="プロジェクト内での役割-1"><i class="fa-regular fa-flag"></i>プロジェクト内での役割</h3>
+<ul>
+<li>k6、xdebugのprofiler、SlowQueryログ、Lighthouse負荷試験</li>
+<li>ドキュメントのベース作成と自動生成</li>
+<li>インフラ面の整備</li>
+</ul>
+<h3 id="主な取り組み-1"><i class="fa-solid fa-person-running"></i>主な取り組み</h3>
+<h4 class="top-h4">SlowQueryの検証と改善</h4>
+<p>毎日使われるシステムであるためデータの増量が激しく、SlowQueryが日に1万件近く残るような状況でありました。<br>
+そこでSlowQueryログを調査し、目立ったSQLを抽出しました。<br>
+そしてデータ量が問題であることと、登録、更新が頻発するシステムであることを根拠に、
+indexを貼ることよりも、データの取得量を減らす方向の修正案を開発者に提示し、修正をお願いしていきました。<br>
+結果、SlowQueryログをバッチ処理以外では出力されないようになりました。</p>
+<h4 id="高負荷時の負荷検証とパフォーマンス改善">高負荷時の負荷検証とパフォーマンス改善</h4>
+<p>式典や社内のイベントごとで、2000リクエスト/秒のアクセスが発生する日があり、
+このタイミングで最悪アプリが500エラーを返してしまう自体が発生しました。<br>
+そこでk6を用いて負荷状況を再現し、どのアクセス量で500エラーが発生するのか、
+エラーが起きているときにどのようなログが残っているのかを解析・原因の特定にあたりました。<br>
+結果、SlowQueryが詰まってApacheの最大同時接続数（MaxKeepAliveRequests）を超えて、504エラーが発生してことが分かりました。<br>
+その後SlowQueryを改善し、同じ状況を再現し、エラーが発生しないことを確認し、再発防止に努めました。</p>
+<h2 id="kyuyo" class="title">給与管理システム</h2>
+<p>Excelで管理されていた給与や賞与に関するデータと計算をシステム化する</p>
+<h3 id="開発体制-2"><i class="fa-solid fa-users"></i>開発体制</h3>
+<p>2 ～ 4 人
+内訳：社員２名、パートナー２名</p>
+<h3 id="主な使用技術-1"><i class="fa-solid fa-code"></i>主な使用技術</h3>
+<ul>
+<li>バックエンドにLaravel（ver10）、フロントエンドにVue.js（ver2）を利用したSPA</li>
+<li>Dockerコンテナを用いたローカル開発環境の構築と利用</li>
+<li>PHPUnitを用いたユニットテストとe2eテストの導入、及び自動化</li>
+<li>Confluenceをベースに業務知識の展開</li>
+</ul>
+<h3 id="プロジェクト内での役割-2"><i class="fa-regular fa-flag"></i>プロジェクト内での役割</h3>
+<ul>
+<li>要件定義、設計、実装</li>
+<li>コードレビュー</li>
+<li>開発環境の整備と改善</li>
+<li>ユニットテストのベース作成と自動化</li>
+<li>ドキュメントのベース作成と自動生成</li>
+<li>インフラ面の整備</li>
+</ul>
+<h3 id="主な取り組み-2"><i class="fa-solid fa-person-running"></i>主な取り組み</h3>
+<h4 class="top-h4">実装でのリード</h4>
+<p>このプロジェクトは、部内で初めて採用されたLaravelとVue.jsを組み合わせた開発でした。<br>
+プロジェクト立ち上げから、技術選定の理由や意思決定過程を明確に文書化し、
+他のプロジェクトチームが参考にできるようにしました。<br>
+この取り組みは、技術的な知見の共有を促進し、他プロジェクトからの技術的な質問や交流のきっかけとなりました。<br>
+また、プロジェクトの進行とともに、システムの規模に合わせた構成変更や実装方針の見直しを行う柔軟性も身に付けました。<br>
+実装当初は部内では新しい試みだった、Laravel + Vueのバックエンド・フロントエンドの構成でのプロジェクトの立ち上げになりました。</p>
+<h4 id="任意精度数値計算のデグレを防ぐためにユニットテストの導入">任意精度数値計算のデグレを防ぐためにユニットテストの導入</h4>
+<p>給与やそれにかかわる金額計算ということで、金額を扱う場面が非常に多く、
+任意の桁数での切り上げ、切り捨てを間違えないで行うことが求められました。<br>
+ここを間違えないこと、間違えたときにも気づきやすいようにユニットテストを導入し、デグレに気づけるようにしました。<br>
+またCIに組み込むことでテストの実施漏れも無くしました。</p>
+<hr>
+<h2 id="GMO"><i class="fa-solid fa-building"></i>{SECOND_COMPANY_NAME}（2015年10月～2019年６月）</h2>
+<h2 id="payment" class="title top-h2">外部連携決済の追加<br>　クロネコWebコレクト決済（クレジット・コンビニ・後払い）<br>　後払い.com決済、atone決済</h2>
+<h3 id="開発体制-3"><i class="fa-solid fa-users"></i>開発体制</h3>
+<p>1～3人</p>
+<h3 id="主な使用技術-2"><i class="fa-solid fa-code"></i>主な使用技術</h3>
+<ul>
+<li>PHP、jQuery、Git</li>
+</ul>
+<h3 id="プロジェクト内での役割-3"><i class="fa-regular fa-flag"></i>プロジェクト内での役割</h3>
+<ul>
+<li>設計、開発、保守</li>
+<li>外部決済と既存システムの連携ドキュメント整理</li>
+</ul>
+<h3 id="主な取り組み-3"><i class="fa-solid fa-person-running"></i>主な取り組み</h3>
+<h4 class="top-h4">決済共通処理の設計とモジュール化</h4>
+<p>決済に共通するコードのモジュール化に取り組み、外部APIとの通信や、文字コードの違いの吸収等、共通箇所を出来る限り関数化しました。<br>
+最終的な結果として、1つの決済を導入するのに2,3ヶ月かかっている状況から、2週間まで短縮することに成功しました。<br>
+また入力画面の多い決済画面の一部画面において、Seleniumによる一部動作テストを自動化し、デグレの低減とテスト工数を削減しました。</p>
+<hr>
+<h2 id="visan"><i class="fa-solid fa-building"></i>{THIRD_COMPANY_NAME}（2012年６月～2015年７月）
+</h2><h2 id="pos" class="title top-h2">ブラウザベースのペット美容室用POSレジ　保守、開発</h2>
+<h3 id="開発体制-4"><i class="fa-solid fa-users"></i>開発体制</h3>
+<p>1人</p>
+<h3 id="主な使用技術-3"><i class="fa-solid fa-code"></i>主な使用技術</h3>
+<ul>
+<li>PHP5、jQuery</li>
+</ul>
+<h3 id="主な業務内容">主な業務内容</h3>
+<ul>
+<li>ブラウザベースのペット美容室用POSレジ　保守、開発、要件定義</li>
+<li>顧客からの問い合わせに対するヘルプデスク、トラブル対応</li>
+</ul>
+<h3 id="主な取り組み-4"><i class="fa-solid fa-person-running"></i>主な取り組み</h3>
+<h4 class="top-h4">レンダリング速度への配慮</h4>
+<p>WEBブラウザベースのPOSレジということで、レンダリング速度に特に気を付けました。<br>
+実装時は仮想DOMといった考えもなく、描画の主だった部分をjQueryで賄っていましたので、何とかして描画速度を上げようと、
+特に要素を絞り込みやすくするためのセレクタとHTMLコーティング、
+使いまわせる要素はキャッシュするなど、できる範囲で気を配って実装しました。<br>
+結果として描画速度については特に不満の声は上がりませんでした。</p>
+<hr>
+<h2 class="company"><i class="fa-solid fa-building"></i>{FOURTH_COMPANY_NAME}（2007年４月～2012年５月）</h2>
+<h3 id="プロジェクト内での役割-4"><i class="fa-regular fa-flag"></i>プロジェクト内での役割</h3>
+<p>Photoshop、illustratorを使用しての図形、写真の修正、MC-B2を使用した組版作業など、アナログな作業よりもデジタルな作業をメインに行っておりました。<br>
+各種作業において自動化を図り、アクションやマクロの機能を積極的に使用しておりました。</p>
+<p><a href="#" class="back-to-top">↑</a></p> </body></html>
